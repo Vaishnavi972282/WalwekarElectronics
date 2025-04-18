@@ -21,7 +21,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+<<<<<<< HEAD
     "start": "react-scripts start",
+=======
+    "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
+>>>>>>> 69d1076e8cfce64a697d21b8b624dc0a1e54ec68
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
