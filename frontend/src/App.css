@@ -33,6 +33,7 @@ body {
 
 main {
   flex: 1;
+  padding: 2rem 0;
 }
 
 /* Typography */
@@ -143,7 +144,7 @@ a:hover {
 }
 
 .navbar-brand {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 1.5rem;
   color: white !important;
 }
@@ -231,4 +232,28 @@ a:hover {
 
 .loading {
   animation: pulse 1.5s infinite;
+}
+
+/* Header Styles */
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* Product Card Styles */
+.product-title {
+  height: 2.5em;
+  overflow: hidden;
+}
+
+/* Rating Stars */
+.rating span {
+  margin: 0.1rem;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem 0;
+  margin-top: auto;
 } 
